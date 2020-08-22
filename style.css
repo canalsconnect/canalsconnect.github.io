@@ -1,0 +1,342 @@
+.header {
+    text-align: center;
+    padding-top: 160px;
+    margin: -10px -10px 15px -10px;
+    background-color: #0f00a3;
+    height: 538px;
+}
+
+.boxa {
+    height: 48px;
+    margin-top: -48px;
+    grid-row: 2;
+    grid-column: 3;
+    width: 245px;
+}
+
+.boxb {
+    height: 48px;
+    grid-row: 3;
+    grid-column: 2;
+    width: 265px;
+    margin-top: -48px;
+    z-index: 1;
+}
+
+.boxc {
+    height: 48px;
+    grid-row: 6;
+    grid-column: 3;
+    width: 245px;
+    bottom: 0;
+    margin-top: -48px;
+    z-index: 1;
+}
+
+.boxa p,
+.boxb p,
+.boxc p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 6pt;
+    font-style: italic;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    margin: 0 auto;
+    padding: 10px; 
+}
+
+#about, #safety, #cities, #support, #map, #resources {
+    height: 48px;
+    width: 48px;
+    margin-top: -48px;
+}
+
+#safety {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#cities {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#support {
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#map {
+    grid-row: 5;
+    grid-column: 2;
+}
+
+#resources {
+    grid-row: 6;
+    grid-column: 2;
+}
+
+.container {
+    display: grid;
+    height: 2500px;
+    grid-template-columns: 5% 1fr 1fr 5%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  
+}
+
+.container2 {
+    grid-row: 3;
+    grid-column: 3;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.container2 a{
+    font-family: 'Krona One', sans-serif ;
+    font-size: 20px;
+    
+}
+
+.container2 p{
+    text-align: center;
+    margin: auto;
+    
+}
+
+#phoenix, #denver, #new {
+    
+    height: 172.5px;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: .5;
+}
+
+#co {
+    grid-row: 1;
+    grid-column: 1;
+    display: block;
+} 
+
+#denver {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#az {
+    grid-row: 2;
+    grid-column: 1;
+    display: block;
+}
+
+#phoenix {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#ny {
+    grid-row: 3;
+    grid-column: 1;
+    display: block;
+}
+
+#new {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.section {
+    background-color: lightcyan;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#a {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#b {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+#c {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#d {
+    grid-row: 4;
+    grid-column: 3;
+}
+
+#e {
+    grid-row: 5;
+    grid-column: 2;
+}
+
+#lwave {
+    grid-row: 1 / 5;
+    grid-column: 1;
+    margin-left: 5px;
+    width: 135%;
+    z-index: -1;
+}
+
+#rwave {
+    grid-row: 1 / 5;
+    grid-column: 4;
+    width: 135%;
+    z-index: -2;
+    margin-left: -30px;
+}
+
+#fences {
+    grid-row: 2;
+    grid-column: 2;
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    
+}
+
+h1 {
+    font-size: 85px;
+    color: white;
+    
+}
+
+h3 {
+    font-size: 25px;
+    color: white;
+    background-color:blue;
+    font-weight: 400;
+    font-style: italic;
+    padding: 10px 0px;
+    
+}
+
+h1, h2, li {
+    font-family: 'Krona One', sans-serif;
+    
+}
+
+h2 {
+    color: rgb(14, 14, 46);
+}
+
+h3, p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    display: block;
+    max-width: 600px;
+    font-weight: 400;
+    line-height: 1.75em;
+}
+
+.colophon p {
+    max-width: 100%;
+    font-size: 10px;
+    padding-left: 20px;
+
+}
+
+.container p {
+    font-size: 16px;
+}
+
+.src {
+    height: 400px;
+    background-color: blue;
+    margin: 96px -10px 0px -10px;
+}
+
+.src h2 {
+    color: white;
+    padding-left: 35px;
+    padding-top: -40px;
+}
+
+.src a {
+    color: lightcyan;
+    padding-left: 35px;
+    line-height: 2em;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.nav a:hover,
+#two a:hover,
+#co a:hover,
+#az a:hover,
+#ny a:hover,
+.src a:hover {
+    color: yellow;
+}
+
+.nav {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin: -20px -10px 0px -10px;
+
+}
+
+.nav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 20px;
+    color: lightcyan;
+}
+
+.nav li {
+    display: inline;
+    color: white;
+}
+
+#two {
+    grid-row: 3;
+    grid-column: 3;
+}
+
+#two li {
+    display: block;
+    color: lightcyan;
+}
+
+#canals {
+    grid-row: 5;
+    grid-column: 3;
+    height: 430.5px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#example {
+    grid-row: 4;
+    grid-column: 2;
+    height: 540px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+#ccc {
+    grid-row: 1;
+    grid-column: 3;
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+
+}
+
